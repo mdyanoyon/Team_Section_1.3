@@ -1,0 +1,134 @@
+body {
+    font-family: 'Work Sans',sans-serif;
+  }
+/* ============= */
+.team_section{
+
+}
+.team_section h1{
+  color: #273043;
+  margin-bottom: 20px;
+  font-size: 62px;
+  letter-spacing: -2px;
+  font-weight: 300;
+}
+.team_section p{
+    font-size: 16px;
+    color: rgba(0,0,0,.5);
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.team_section a{
+    font-weight: 500;
+    font-size: 16px;
+    color: #ad1e56;
+    padding-left: 45px;
+    position: relative;
+    text-decoration: none;
+}
+.team_section a::before{
+    width: 26px;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    content: '';
+    background-color: #ad1e56;
+    transition: 0.2s;
+    
+}
+.team_section a:hover::before{
+  width: 36px;
+}
+.team_section a::after{
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    left: 17px;
+    top: calc(50% - 3px);
+    content: '';
+    border-right: 2px solid #ad1e56;
+    border-bottom: 2px solid #ad1e56;
+    transform: rotate(-45deg);
+    transition: 0.3s;
+}
+.team_section a:hover::after{
+  left: 29.8px;
+}
+/* ============= */
+  .card{
+    border: 2px solid #ededed;
+    border-radius: 25px;
+  }
+  .card:hover{
+    box-shadow: rgb(0 0 0 / 40%) 1px 9px 5px 0px;
+
+  }
+
+  .c_hr{
+    width: 130px;
+    height: 2px !important;
+    opacity: 1;
+    color: #36a7df;
+  }
+  .card-title{
+    text-align: left;
+    font-size: 18px;
+    font-weight: 700;
+    
+  }
+  .card-text_top{
+    text-align: left;
+    font-weight: 600;
+    font-size: 14px !important;
+    
+  }
+  .card-text{
+    text-align: left;
+    font-size: 15px;
+    color: #6f6f6f;
+    line-height: 1.6;
+  }
+  .swiper-button-next{
+    height: 32px;
+    top: 88%;
+    background:#ad1e56;
+    right: 0;
+  }
+  .swiper-button-next::after{
+    display: none;
+  }
+  .swiper-button-prev{
+    height: 32px;
+    background-color: #ad1e56;
+    left:44%;
+    top: 88%;
+    right: 0 !important;
+  }
+  .swiper-button-prev::after{
+    display: none;
+  }
+  .np_button{
+    margin-left: 33%;
+    margin-top: 50px;
+    min-height: 35px;
+    position: relative;
+    width: 100px !important;
+    /* border: #000 1px solid; */
+  }
+  .swiper-pagination{
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(0,0,0,.4);
+    line-height: 1;
+    letter-spacing: 1px;
+  }
+  .swiper-pagination-fraction{
+    bottom: 24px;
+    left: -30px;
+  }
+  .np_button i{
+    color:#fff;
+    margin-top: 10%;
+  }
+  
